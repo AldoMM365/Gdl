@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+body{
+ font-family: 'Noto Sans JP', sans-serif;
+ font-size: 22px;
+}
+nav{
+	position: fixed;
+	background: #0bb;
+	color: #fff;
+	width: 100%;
+	height: 8%;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 17px;
+	display: flex;
+	justify-content: center;
+	z-index: 10;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+}
+.nav-container{
+	display: flex;
+	flex-direction: row;
+}
+.nav-item{
+	display: inline-block;
+	padding: 0 30px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+header{
+	width: 100%;
+	height: 100%;
+	background-image: url(iu.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	text-decoration: none;
+}
+.titleBar{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: 'Noto Sans JP', sans-serif;
+	color: rgba(255,255,255,0);
+}
+.title{
+	font-size: 100px;
+	font-family: 'Oswald', sans-serif;
+	animation-name: titleAnim;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	padding-top: 40px;
+}
+.subtitle{
+	font-size: 50px;
+	animation-name: titleAnim;
+	animation-duration: 4s;
+	animation-delay: 0.5s;
+	animation-fill-mode: forwards;
+}
+.nav-item:hover{
+	background: #099
+}
+#Leyendas{
+	height: 200%;
+	font-size: 16px;
+}
+.content{
+	margin: 10px;
+}
+img{
+	height: 250px;
+}
+.imgContainer{
+	width: 100%;
+	display: flex;
+	flex-flow: column no-wrap;
+	justify-content: center;
+}
+.list{
+	padding: revert;
+	width: 90%;
+	height: 50%;
+	display: flex;
+	flex-flow: column wrap;
+}
+.thingsContainer{
+	width: 100%;
+	display: flex;
+	flex-flow: column no-wrap;
+}
+audio{
+	margin: 0 10px;
+}
+.subtheme{
+	display: flex;
+	flex-flow: column no-wrap;
+	align-items: center;
+}
+section{
+	width: 100%;
+	height: 100%;
+	background: #000;
+	color: #fff;
+}
+footer{
+	height: 30%;
+	background: #CCC;
+	display: flex;
+	flex-flow: row no-wrap;
+	justify-content: center;
+	align-items: center;
+}
+@keyframes titleAnim {
+	0%{
+		color: rgba(255,255,255,0);
+		text-shadow: none;
+	}
+	100%{
+		color: rgba(255,255,255,1);
+		text-shadow: 0 0 10px #000;
+	}
+}
+/*Hecho por Aldo Mateo Morales Mata 2-B T/M*/
